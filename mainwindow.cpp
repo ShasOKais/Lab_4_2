@@ -6,9 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->spinBox->setValue(value);
-    ui->lineEdit->setText(text);
-    ui->progressBar->setValue(value);
+    update();
 }
 
 MainWindow::~MainWindow()

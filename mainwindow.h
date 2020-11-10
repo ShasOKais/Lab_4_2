@@ -28,7 +28,5 @@ private:
     Ui::MainWindow *ui;
     Data data;
     QMessageBox msg;
-    int value = 10;
-    QString text = QString::number(value);
 };
 #endif // MAINWINDOW_H
